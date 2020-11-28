@@ -74,7 +74,4 @@ def write_lyrics_to_file(artist_name, song_count):
     print('Wrote {} lines to file from {} songs'.format(num_lines, song_count))
 
 
-if __name__ == '__main__':
-    print(request_song_url('Lana Del Rey', 20))
-    print(scrape_song_lyrics('https://genius.com/Lana-del-rey-young-and-beautiful-lyrics'))
-    # write_lyrics_to_file('Kendrick Lamar', 100)
+
